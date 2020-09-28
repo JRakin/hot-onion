@@ -1,0 +1,15 @@
+nav li {
+  cursor: pointer;
+  font-weight: 500;
+}
+nav .active {
+  color: red;
+}
+nav .active::after {
+  content: '';
+  background-color: red;
+  height: 2px;
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}

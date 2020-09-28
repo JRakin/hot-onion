@@ -1,0 +1,19 @@
+.logo {
+  height: 50px;
+}
+.btn-signUp {
+  background-color: red;
+  padding: 4px 15px;
+  border-radius: 30px;
+  color: #fff;
+}
+.btn-signUp:hover {
+  color: #fff;
+  background-color: rgb(155, 2, 2);
+}
+.header ul li a {
+  color: gray;
+}
+.header ul li a:hover {
+  color: black;
+}

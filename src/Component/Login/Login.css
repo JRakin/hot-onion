@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box !important;
+}
+.login {
+  background-image: url('../../Image/signup-bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: content-box;
+  background-position: bottom;
+}
+.login form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-control {
+  padding: 25px 15px;
+  border: none;
+  outline: none;
+  background: rgb(230, 230, 230);
+}
+.form-control:focus {
+  outline: none !important;
+  border: none;
+}
+.sign-btn {
+  background-color: red !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  transition: 0.5s !important;
+  border-radius: 30px !important;
+}
+.sign-btn:hover {
+  background-color: rgb(155, 2, 2) !important;
+}
+.logo img {
+  height: 80px;
+  margin-top: 80px;
+}
+.warning {
+  color: red;
+}
