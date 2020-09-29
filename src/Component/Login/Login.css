@@ -2,38 +2,45 @@
   box-sizing: border-box !important;
 }
 .login {
-  background-image: url('../../Image/signup-bg.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /* background-image: url('../../Image/signup-bg.png'); */
+  background-color: #ebecf0;
   height: 100vh;
-  box-sizing: content-box;
-  background-position: bottom;
 }
 .login form {
   max-width: 400px;
   margin: 0 auto;
 }
 .form-control {
-  padding: 25px 15px;
+  padding: 16px;
   border: none;
   outline: none;
-  background: rgb(230, 230, 230);
+  border-radius: 30px;
+  box-shadow: inset 1px 1px 4px #babecc, inset -4px -4px 8px #fff;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
 }
 .form-control:focus {
   outline: none !important;
   border: none;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
-.sign-btn {
-  background-color: red !important;
-  color: #fff !important;
+.form-group .sign-btn {
+  background-color: #ebecf0 !important;
+  color: red;
+  font-weight: 600;
+  box-shadow: inset 1px 1px 4px #babecc, inset -4px -4px 8px #fff;
   font-size: 18px !important;
-  transition: 0.5s !important;
   border-radius: 30px !important;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+  -o-transition: box-shadow 0.5s;
+  transition: all 0.5s !important;
 }
-.sign-btn:hover {
-  background-color: rgb(155, 2, 2) !important;
+.form-group .sign-btn:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 }
-.logo img {
+.logo-body img {
   height: 80px;
   margin-top: 80px;
 }

@@ -11,8 +11,10 @@
 }
 .banner .search-btn {
   position: absolute;
-  background-color: red;
   color: #fff;
+  font-weight: 600;
+  background-color: red;
+  box-shadow: 1px 1px 4px red, -4px -4px 8px #fff;
   border-radius: 30px;
   padding: 6px 22px;
   top: 0;

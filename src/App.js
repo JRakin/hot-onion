@@ -12,7 +12,9 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Home></Home>
+          <Header></Header>
+          <Search></Search>
+          <Food></Food>
         </Route>
       </Switch>
     </Router>

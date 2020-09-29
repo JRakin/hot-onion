@@ -4,12 +4,15 @@ nav li {
 }
 nav .active {
   color: red;
+  border-radius: 30px;
+  background-color: #ebecf0;
+  box-shadow: 1px 1px 4px #babecc, -4px -4px 8px #fff;
 }
-nav .active::after {
+/* nav .active::after {
   content: '';
   background-color: red;
   height: 2px;
   width: 85%;
   margin: 0 auto;
   display: block;
-}
+} */
