@@ -7,8 +7,7 @@ const fakeData = [
       'A classic yakhni pulao is meticulously prepared by simmering basmati rice in an aromatic chicken, lamb, or goat broth. In this version, chicken thighs are simmered in a spiced tomato base along with rice and whole spices like cinnamon and bay leaf. ',
     type: 'Lunch',
     price: '29',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/0BCSRct/lunch1.png',
   },
   {
     id: '2',
@@ -18,8 +17,7 @@ const fakeData = [
       'If making bread has long intimidated you, start here. Parathas come in many shapes, textures, and flavors across Asia—they are perfect for dipping into dals and stews or eating alongside assorted condiments. This take, which Priya Krishna learned from her aunt Rachna, is really simple: a basic wheat-based dough stuffed with silky spiced potatoes. ',
     type: 'Breakfast',
     price: '22',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/rw3b9V8/breakfast1.png',
   },
   {
     id: '3',
@@ -29,8 +27,7 @@ const fakeData = [
       'Crisp, peppery radishes take center stage in this fresh limey Salvadoran salsa. ',
     type: 'Lunch',
     price: '49',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/W0624qB/lunch2.png',
   },
   {
     id: '4',
@@ -40,8 +37,7 @@ const fakeData = [
       'The glory of head-on shrimp is sucking all the sweet, briny juices out of their heads. ',
     type: 'Lunch',
     price: '59',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/KXF0J7Z/lunch3.png',
   },
   {
     id: '5',
@@ -51,8 +47,7 @@ const fakeData = [
       'Salvadoran chicken braised in fizzy and tangy pineapple chicha from Anthony Salguero of Popoca in Oakland. ',
     type: 'Lunch',
     price: '39',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/FJWWg5J/lunch4.png',
   },
   {
     id: '6',
@@ -62,8 +57,7 @@ const fakeData = [
       'In this Trinidadian dish chopped onions, peppers, and chiles get sizzled in hot oil before they’re poured over broiled peak-season tomatoes. ',
     type: 'Lunch',
     price: '19',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/LZ34RRx/lunch5.png',
   },
   {
     id: '7',
@@ -73,8 +67,7 @@ const fakeData = [
       ' It has a vibrant flavor from the slew of herbs and spices that get mixed in. It’s what started his journey into exploring Thai food and his own roots. ',
     type: 'Lunch',
     price: '59',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/7kkmtSV/lunch6.png',
   },
   {
     id: '8',
@@ -84,8 +77,7 @@ const fakeData = [
       ' A simple and refreshing Trinidadian chow made with pineapple or mango. ',
     type: 'Breakfast',
     price: '19',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/ZfR7Dnv/breakfast2.png',
   },
   {
     id: '9',
@@ -95,8 +87,7 @@ const fakeData = [
       ' The interplay between the fish sauce, chiles, and sweet juicy fruits makes this a simple but refreshing dish. ',
     type: 'Breakfast',
     price: '29',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/Pr8NRg4/breakfast3.png',
   },
   {
     id: '10',
@@ -106,8 +97,7 @@ const fakeData = [
       ' An ultralight and puffy Thai omelet with crispy golden brown edges. ',
     type: 'Breakfast',
     price: '33',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/VjQKMkk/breakfast4.png',
   },
   {
     id: '11',
@@ -117,8 +107,7 @@ const fakeData = [
       ' A rebellious take on a Thai classic from chef Parnass Savang of Atlanta’s Talat Market. ',
     type: 'Breakfast',
     price: '37',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/tzWqfFF/breakfast5.png',
   },
   {
     id: '12',
@@ -128,8 +117,7 @@ const fakeData = [
       ' This recipe makes 3–4 balls of each type (tuna, umeboshi, and kimchi). If you only want one flavor, simply increase your filling of choice. ',
     type: 'Breakfast',
     price: '66',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/2jwhwtF/breakfast6.png',
   },
   {
     id: '13',

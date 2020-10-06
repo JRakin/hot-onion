@@ -3,8 +3,10 @@
 }
 .btn-signUp {
   background-color: red;
-  padding: 4px 15px;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px rgb(255, 60, 60), -4px -4px 8px #fff;
   border-radius: 30px;
+  padding: 6px 22px;
   color: #fff;
 }
 .btn-signUp:hover {

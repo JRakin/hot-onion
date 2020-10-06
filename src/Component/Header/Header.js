@@ -12,7 +12,11 @@ const Header = () => {
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item">
-            <Link to="/login" className="nav-link">
+            <Link
+              to="/login"
+              className="nav-link"
+              style={{ fontWeight: '600' }}
+            >
               Login
             </Link>
           </li>
