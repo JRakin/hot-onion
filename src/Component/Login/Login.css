@@ -11,7 +11,8 @@
   overflow: hidden;
   background-color: #fcfcfc;
 }
-.login form {
+.login form,
+.other-login {
   max-width: 400px;
   margin: 0 auto;
 }
@@ -32,7 +33,7 @@
 .container .sign-btn {
   background-color: #ebecf0 !important;
   color: red;
-  font-weight: 600;
+  font-weight: 500;
   box-shadow: inset 2px 2px 4px #babecc, inset -2px -2px 4px #fff;
   font-size: 18px !important;
   border-radius: 30px !important;

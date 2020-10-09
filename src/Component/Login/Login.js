@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Particles from 'react-particles-js';
 import './Login.css';
 import LogoPic from '../../Image/logo2.png';
@@ -6,10 +6,48 @@ import { useForm } from 'react-hook-form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserLock } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import * as firebase from 'firebase/app';
+import 'firebase/auth';
+import firebaseConfig from './firebase.config';
+import { UserContext } from '../../App';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import Swal from 'sweetalert2';
+
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
+library.add(faGoogle);
 
 const Login = () => {
   const { register, handleSubmit, errors } = useForm();
   const [newUser, setNewUser] = useState(false);
+
+  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+
+  const provider = new firebase.auth.GoogleAuthProvider();
+
+  const handleSignInWithGoogle = () => {
+    firebase
+      .auth()
+      .signInWithPopup(provider)
+      .then((result) => {
+        const signedInUser = {
+          name: result.user.displayName,
+          email: result.user.email,
+          photoURL: result.user.photoURL,
+          isLoggedIn: true,
+        };
+        setLoggedInUser(signedInUser);
+      })
+      .catch((err) => {
+        Swal.fire(
+          'Sorry',
+          'Something went wrong please try again later!',
+          'warning'
+        );
+      });
+  };
 
   const onSubmit = (data) => {};
 
@@ -253,6 +291,18 @@ const Login = () => {
                 </div>
               </form>
             )}
+          </div>
+          <div className="other-login">
+            <button
+              onClick={handleSignInWithGoogle}
+              className="btn btn-block sign-btn"
+            >
+              <FontAwesomeIcon
+                style={{ marginRight: '4px', color: '' }}
+                icon={['fab', 'google']}
+              />
+              Continue With Google
+            </button>
           </div>
         </div>
       </div>

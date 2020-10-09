@@ -1,12 +1,23 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './FoodItem.css';
 
 const FoodItem = (props) => {
   const food = props.item;
+  const history = useHistory();
+
+  const handleDetails = (id) => {
+    history.push('/foodItemDetails/' + id);
+  };
+
   return (
     <div className="col-md-4">
       <div className="m-3 food-item-card">
-        <div className="text-center">
+        <div
+          onClick={() => handleDetails(food.id)}
+          style={{ cursor: 'pointer' }}
+          className="text-center"
+        >
           <img className="w-75 p-4" src={food.image} alt="" />
           <p
             className="mb-0 mt-2"

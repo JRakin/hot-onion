@@ -127,8 +127,7 @@ const fakeData = [
       'Leela Punyaratabandhu’s phanaeng-marinated beef skewers belong at your next barbecue.  ',
     type: 'Dinner',
     price: '52',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/6vmDYLZ/dinner1.png',
   },
   {
     id: '14',
@@ -138,19 +137,17 @@ const fakeData = [
       'Short ribs aren’t just for braising. Boneless short ribs in particular can be grilled like steak, but be sure to cook them to medium doneness, just long enough to render fat and tenderize.  ',
     type: 'Dinner',
     price: '69',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/BCNHZxw/dinner2.png',
   },
   {
     id: '15',
-    title: 'Open-Face Eggplant Sandwiches',
+    title: 'Eggplant Sandwiches',
     subTitle: 'Bon Appetit',
     description:
       'For this dinner-worthy sandwich, you’ll sear the eggplant on the stove, then marinate it in oil and vinegar to make it silky-soft and flavor-packed.',
     type: 'Dinner',
     price: '31',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/zfJgm4p/dinner3.png',
   },
   {
     id: '16',
@@ -160,8 +157,7 @@ const fakeData = [
       'With the help of the large holes on a box grater, zucchini transforms into a pile of soft shreds. Cook it down with olive oil, onion, and garlic and it becomes a creamy.',
     type: 'Dinner',
     price: '43',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/yRGSnhP/dinner4.png',
   },
   {
     id: '17',
@@ -171,8 +167,7 @@ const fakeData = [
       'Adobo—both a style of preparation as well as the name of a dish—is one of the most widely known foods of the Philippines, often referred to as its national dish. ',
     type: 'Dinner',
     price: '39',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/pf6cZsj/dinner6.png',
   },
   {
     id: '18',
@@ -182,8 +177,7 @@ const fakeData = [
       'This picadillo is inspired by a version found in San Luis Potosí in central Mexico with potatoes and poblanos. ',
     type: 'Dinner',
     price: '69',
-    image:
-      'https://assets.bonappetit.com/photos/5f6e4447405672755aa18516/16:9/w_1024,c_limit/Basically-Chicken-Palao.jpg',
+    image: 'https://i.ibb.co/9wZTxWG/dinner5.png',
   },
 ];
 
