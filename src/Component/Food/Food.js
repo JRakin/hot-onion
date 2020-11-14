@@ -54,7 +54,7 @@ const Food = () => {
         </div>
         <div className="row my-4">
           {foods.map((food) => (
-            <FoodItem item={food}></FoodItem>
+            <FoodItem key={food.id} item={food}></FoodItem>
           ))}
         </div>
       </div>

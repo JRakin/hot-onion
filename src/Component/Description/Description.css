@@ -1,0 +1,18 @@
+.btn-see {
+  border: none;
+  background-color: transparent;
+}
+.btn-see:active,
+.btn-see:focus,
+.btn-see:hover {
+  outline: none;
+  border: none;
+  color: red;
+}
+.description-card {
+  transition: 0.6s;
+}
+.description-card:hover {
+  box-shadow: 3px 3px 6px lightgray, inset -1px -1px 2px lightgray;
+  border-radius: 8px;
+}

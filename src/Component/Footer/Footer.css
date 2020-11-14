@@ -1,0 +1,9 @@
+.footer-container {
+  background-color: #1c1124;
+  overflow: hidden;
+  background-size: cover;
+  color: #fff;
+}
+.extra-features ul {
+  list-style: none;
+}
