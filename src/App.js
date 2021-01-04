@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Dashboard from './Component/DashBoard/Dashboard';
 import FoodItemDetails from './Component/FoodItemDetails/FoodItemDetails';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
@@ -23,6 +24,9 @@ function App() {
           <Route path="/foodItemDetails/:id">
             <Header></Header>
             <FoodItemDetails></FoodItemDetails>
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard></Dashboard>
           </Route>
         </Switch>
       </Router>
