@@ -26,6 +26,7 @@ function App() {
             <FoodItemDetails></FoodItemDetails>
           </Route>
           <Route path="/dashboard">
+            <Header></Header>
             <Dashboard></Dashboard>
           </Route>
         </Switch>

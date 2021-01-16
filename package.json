@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -12,6 +13,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.10.2",
     "bootstrap": "^4.5.2",
     "firebase": "^7.23.0",
     "formik": "^2.2.6",
@@ -25,6 +27,7 @@
     "react-select": "^3.1.1",
     "react-spring": "^8.0.27",
     "redux": "^4.0.5",
+    "sass": "^1.32.4",
     "sweetalert2": "^10.3.6",
     "yup": "^0.32.8"
   },

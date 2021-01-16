@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './Header.css';
 import Logo from '../../Image/logo2.png';
 import { Link } from 'react-router-dom';
-import { UserContext } from '../../App';
+// import { UserContext } from '../../App';
 
 const Header = () => {
-  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  // const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   return (
     <div className="container header">
       <nav className="navbar navbar-expand justify-content-between">
